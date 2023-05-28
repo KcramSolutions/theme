@@ -1,0 +1,26 @@
+{
+  "name": "kcram-theme",
+  "displayName": "KCRAM THEME",
+  "description": "Theme for the company KCRAM",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "KCRAM",
+        "uiTheme": "vs-dark",
+        "path": "./themes/KCRAM-color-theme.json"
+      },
+      {
+        "label": "KCRAM",
+        "uiTheme": "vs",
+        "path": "./themes/KCRAM-color-theme-light.json"
+      }
+    ]
+  }
+}
