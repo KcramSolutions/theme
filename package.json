@@ -12,14 +12,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "KCRAM",
+        "label": "KCRAM Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/KCRAM-color-theme.json"
       },
       {
-        "label": "KCRAM",
+        "label": "KCRAM light",
         "uiTheme": "vs",
         "path": "./themes/KCRAM-color-theme-light.json"
+      },
+      {
+        "label": "KCRAM Yellow",
+        "uiTheme": "vs",
+        "path": "./themes/kcram-light-color-theme.json"
+      },
+      {
+        "label": "Win98",
+        "uiTheme": "vs",
+        "path": "./themes/windows-98-fork-color-theme.json"
       }
     ]
   }
